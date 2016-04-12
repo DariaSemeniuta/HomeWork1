@@ -50,7 +50,7 @@ public class HomeWorkSelenium extends TestCase {
         }
     }
     @AfterClass
-    public void afterClass() throws Exception { 
+    public void tearDown () throws Exception { 
         System.out.println( "Тест окончен" );
         driver.quit();
     }
